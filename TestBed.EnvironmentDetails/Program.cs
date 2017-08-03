@@ -10,6 +10,8 @@ namespace TestBed.EnvironmentDetails
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Domain     :  " + Environment.UserDomainName);
+            Console.WriteLine("User Name  :  " + Environment.UserName);
         }
     }
 }
